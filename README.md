@@ -24,10 +24,10 @@ Portfolio-Projects/
 ├── 01-COVID-Data-Exploration/
 │   ├── CovidDeaths(csv).csv              # Global COVID-19 death records dataset
 │   ├── CovidVaccinations(csv).csv        # Global vaccination tracking dataset
-│   └── portfolioProject.sql              # Exploratory SQL analysis queries
+│   └── Data_Exploration.sql              # Exploratory SQL analysis queries
 │
 ├── 02-Nashville-Housing-Data-Cleaning/
 │   ├── Nashville Housing Data for Data Cleaning .csv # Raw housing market dataset
-│   └── Data Cleaning after Exploration.sql           # Data transformation & cleaning SQL script
+│   └── Data Cleaning.sql           # Data transformation & cleaning SQL script
 │
 └── README.md                             # Portfolio documentation
