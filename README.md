@@ -1,33 +1,39 @@
-# 📊 Data Analytics SQL Portfolio
+# 📊 Data Analytics Portfolio
 
-Welcome to my Data Analytics SQL Portfolio! This repository showcases end-to-end relational database projects developed using **Microsoft SQL Server Management Studio (SSMS)**. 
-
-The projects in this repository cover the complete data analytics lifecycle in SQL—from **raw data exploration and metrics aggregation** to **advanced schema modification, string parsing, and deduplication**.
+Welcome to my primary Data Analytics portfolio repository! This space showcases end-to-end data analytics projects—ranging from exploratory relational database queries and data cleaning in SQL to interactive dashboarding and reporting in Excel.
 
 ---
 
 ## 🛠️ Tools & Technologies Used
-* **Database Management System:** Microsoft SQL Server (SSMS)
-* **SQL Techniques & Operations:**
-  * **Data Manipulation (DML):** `SELECT`, `WHERE`, `GROUP BY`, `ORDER BY`, Aggregate Functions (`SUM`, `MAX`, `AVG`), `JOIN` (Self-Join, Inner, Outer), Subqueries, Common Table Expressions (CTEs), Temporary Tables (`#TempTables`).
-  * **Window Functions:** `ROW_NUMBER() OVER (PARTITION BY ... ORDER BY ...)`.
-  * **Data Definition & Modification (DDL/DML):** `ALTER TABLE`, `ADD`, `UPDATE`, `DELETE`, `DROP COLUMN`.
-  * **String & Data Functions:** `SUBSTRING`, `CHARINDEX`, `PARSENAME`, `REPLACE`, `LEN`, `CONVERT`, `ISNULL`, `CASE` statements.
-* **Database Objects:** Database Views (`CREATE VIEW`).
+* **Database Management & SQL:** Microsoft SQL Server Management Studio (SSMS)
+* **Data Visualization & Dashboards:** Microsoft Excel (Pivot Tables, Advanced Formulas, Dynamic Slicers)
+* **Version Control:** Git, GitHub
+* **Next Steps:** Tableau, Power BI
 
 ---
 
-## 📂 Repository Structure
+## 📂 Featured Portfolio Projects
 
+| Category | Project Title | Key Tools & Concepts | Documentation & Code |
+| :--- | :--- | :--- | :--- |
+| **Excel** | **Bike Sales Performance Dashboard** | Pivot Tables, Nested Logic, Dynamic Slicers, Demographics Analysis | [View Excel Project](./Excel_Bike_Sales_Analysis/) |
+| **SQL** | **COVID-19 Global Data Exploration** | Joins, CTEs, Temp Tables, Window Functions (`PARTITION BY`) | [View COVID Project](./SQL_Analysis_Projects/01-COVID-Data-Exploration/) |
+| **SQL** | **Nashville Housing Data Cleaning** | Data Standardization, String Parsing (`PARSENAME`), Deduplication | [View Housing Project](./SQL_Analysis_Projects/02-Nashville-Housing-Data-Cleaning/) |
+
+---
+
+## 💡 Repository Structure
 ```text
 Portfolio-Projects/
-├── 01-COVID-Data-Exploration/
-│   ├── CovidDeaths(csv).csv              # Global COVID-19 death records dataset
-│   ├── CovidVaccinations(csv).csv        # Global vaccination tracking dataset
-│   └── Data_Exploration.sql              # Exploratory SQL analysis queries
 │
-├── 02-Nashville-Housing-Data-Cleaning/
-│   ├── Nashville Housing Data for Data Cleaning .csv # Raw housing market dataset
-│   └── Data Cleaning.sql           # Data transformation & cleaning SQL script
+├── README.md                              <-- Main Portfolio Landing Page
 │
-└── README.md                             # Portfolio documentation
+├── SQL_Analysis_Projects/                 <-- SQL Projects Parent Directory
+│   ├── README.md                          <-- SQL Overview Documentation
+│   ├── 01-COVID-Data-Exploration/         <-- EDA Script & Raw Datasets
+│   └── 02-Nashville-Housing-Data-Cleaning/ <-- Cleaning Script & Raw Dataset
+│
+└── Excel_Bike_Sales_Analysis/             <-- Excel Project Directory
+    ├── Bike_buyer_Dashboard.xlsx          <-- Interactive Excel Dashboard
+    ├── dashboard_preview.png              <-- Dashboard Screenshot
+    └── README.md                          <-- Excel Project Documentation
